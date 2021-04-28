@@ -9,9 +9,9 @@ namespace GitPractice
 
     class SubPractice : practice
     {
-        public override int sub(int a, int b)
+        public override int sub(int t, int s)
         {
-            return a - b;
+            return t - s;
         }
     }
 
