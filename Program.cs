@@ -20,7 +20,10 @@ namespace GitPractice
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Sum of two intgers: ");
+            int v1 = 5;
+            int v2 = 10;
+            SubPractice o = new SubPractice();
+            Console.WriteLine("Sum of two intgers: "+o.sum(v1,v2));
         }
     }
 }
