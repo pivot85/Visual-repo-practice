@@ -22,6 +22,7 @@ namespace GitPractice
         {
             int v1 = 5;
             int v2 = 10;
+
             SubPractice o = new SubPractice();
             Console.WriteLine("Sum of two intgers: "+o.sum(v1,v2));
         }
