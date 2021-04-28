@@ -4,14 +4,14 @@ namespace GitPractice
 {
     abstract class practice {
 
-        public abstract int sum(int a,int b);
+        public abstract int sub(int a,int b);
     }
 
     class SubPractice : practice
     {
-        public override int sum(int a, int b)
+        public override int sub(int a, int b)
         {
-            return a + b;
+            return a - b;
         }
     }
 
@@ -24,7 +24,7 @@ namespace GitPractice
             int v2 = 10;
 
             SubPractice o = new SubPractice();
-            Console.WriteLine("Sum of two intgers: "+o.sum(v1,v2));
+            Console.WriteLine("Sum of two intgers: "+o.sub(v1,v2));
         }
     }
 }
